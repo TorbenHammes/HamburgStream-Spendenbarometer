@@ -42,14 +42,11 @@ html, body {
 }
 .progressbar {
 	background-color: green !important;
-	position: relative;
-	margin-bottom: 10px;
+
 }
 .progressbar-done {
-	background: none !important;
-	position: absolute;
-	top: 0; 
-	left: 0;
+	background-color: green !important;
+
 }
 .progressbar-text {
 	color: #fff;
@@ -71,12 +68,6 @@ html, body {
 }
 .progressbar-stars {
 	display: none !important;
-	position: absolute;
-	z-index: 100;
-	width: 104px;
-	height: 77px;
-	top: -20px;
-	right: -25px;
 }
 
 #donate-button {
@@ -86,44 +77,6 @@ html, body {
 }
 
 #donate-button {
-	float: left;
-	display: block;
-	height: auto;
-	width: auto;
-	border: 0;
-	padding: 15px 30px;
-	color: #fff;
-	font-size: 25px;
-	font-weight: bold;
-	text-align: center;
-	text-shadow: -1px -1px 0px #000;
-	cursor: pointer;
-	border-radius: none !important;
-	-o-border-radius: none !important;
-	-ms-border-radius: none !important;
-	-moz-border-radius: none !important;
-	-webkit-border-radius: none !important;
-	background-color: #429600;
-	box-shadow: none !important;
-	-o-box-shadow: none !important;
-	-ms-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	-webkit-box-shadow: none !important;
-	text-decoration: none;
+
 }
 
-
-h1 {
-	font-size: 18px;
-	margin-bottom: 10px;
-	line-height: 140%;
-}
-h2 {
-	font-size: 14px;
-	margin-bottom: 10px;	
-}
-#project-description {
-	line-height: 140%;
-	font-size: 12px;
-	margin-bottom: 10px;
-}
