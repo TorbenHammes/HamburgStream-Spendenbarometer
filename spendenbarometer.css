@@ -41,7 +41,7 @@ html, body {
 	height: 42px;
 }
 .progressbar {
-	background: none !important;
+	background-color: green !important;
 	position: relative;
 	margin-bottom: 10px;
 }
@@ -70,6 +70,7 @@ html, body {
 	right: 16px;
 }
 .progressbar-stars {
+	display: none !important;
 	position: absolute;
 	z-index: 100;
 	width: 104px;
@@ -103,11 +104,11 @@ html, body {
 	-moz-border-radius: none !important;
 	-webkit-border-radius: none !important;
 	background-color: #429600;
-	box-shadow: inset 0px 3px 2px -2px #fff;
-	-o-box-shadow: inset 0px 3px 2px -2px #fff;
-	-ms-box-shadow: inset 0px 3px 2px -2px #fff;
-	-moz-box-shadow: inset 0px 3px 2px -2px #fff;
-	-webkit-box-shadow: inset 0px 3px 2px -2px #fff;
+	box-shadow: none !important;
+	-o-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
 	text-decoration: none;
 }
 
